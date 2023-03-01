@@ -1,1 +1,19 @@
 site_name: Demo
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+copyright: 'Copyright &copy; 2023 3ll3d00d'
+nav:
+  - My Work Part 1: index.md
+  - My Work Part 2: mywork2.md
+
